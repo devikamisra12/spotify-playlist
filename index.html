@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify-Playlist</title>
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link href=https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.1.4/tailwind.min.css rel="stylesheet">
+        <style>
+            @media all and (max-width: 720px) {
+                .responsive {
+                    display: flex;
+                    flex-direction: column;
+                
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg-black text-gray-300 min-h-screen p-10">
+            <div class="flex responsive">
+                <!-- <img  src="assets/botanical-cactuses-close-up-colors-305827.jpg" height="70" width="190"alt="image"> -->
+                <!-- <img src="assets/create-an-abstract-music-album-cover-art-illustration.jpeg"width="250"> -->
+                <!-- <img class="mr-6"src="https://placekitten.com/g/200/200"> -->
+                <img src="assets/R-8912021-1471317476-4199.jpeg.jpg">
+                
+                <div class="flex flex-col justify-centre ml-8 mt-8">
+                    <!-- content -->
+                    <h4 class="mt-0 mb-1 uppercase text-gray-500 tracking-widest text-xs">Playlist</h4>
+                    <h1 class="mt-0 mb-1 text-4xl text-white"><span class="uppercase">Middle Child</span> Radio</h1>
+                    <p class="text-gray-600 text-sm mb-2">With J.cole, Kanye West, EARTHGANG and more</p>
+                    <p class="text-gray-600 text-sm mb-2">Created by <a>Spotify</a>- 50 songs, 2hr 52min</p>
+                
+                    <div class="flex mt-4 justify-between max-w-xl">
+                        <div class="flex">
+                            <!-- buttons -->
+                            <button class="mr-2 bg-green-500 text-green-100 px-10  block rounded-full">Play</button>
+                            <button class="mr-2 border border-white block px-4 rounded-full"><i class="far fa-heart"></i></button>
+                            <button class="mr-2 border border-white block px-4  rounded-full">...</button>
+                        </div>
+                        <div class="text-gray-600 text-sm tracking-widest text-right">
+                            <h5 class="mb-1">Followers</h5>
+                            <p>5,055</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="flex mt-4 justify-between flex-wrap">
+                    <div class="flex"> -->
+                        <!-- buttons
+                        <button class="mr-2 bg-green-500 text-green-100 px-10  block rounded-full">Play</button>
+                        <button class="mr-2 border border-white block px-4  rounded-full">lik</button>
+                        <button class="mr-2 border border-white block px-4  rounded-full">...</button>
+                    </div>
+                    <div class="text-gray-600 text-sm tracking-widest text-right ">
+                        <h5 class="mb-1">Followers</h5>
+                        <p>5,055</p>
+                    </div>
+                </div> -->
+            </div> 
+            <div class="mt-10">
+                <div class="flex text-gray-600">
+                    <div class="p-2 w-8 flex-shrink-0"></div>
+                    <div class="p-2 w-8 flex-shrink-0"></div>
+                    <div class="p-2 w-full">Title</div>
+                    <div class="p-2 w-full">Artist</div>
+                    <div class="p-2 w-full">Album</div>
+                    <div class="p-2 w-12 flex-shrink-0 text-right">Time</div>
+                </div>
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Lose Yourself</div>
+                    <div class="p-3 w-full">Eminem</div>
+                    <div class="p-3 w-full">Spotify</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">5:22</div>
+                </div>
+                <!-- next -->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Hello!</div>
+                    <div class="p-3 w-full">Ssup</div>
+                    <div class="p-3 w-full">Miles stonned</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">3:45</div>
+                </div>
+                <!-- 3rd -->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Hover</div>
+                    <div class="p-3 w-full">Mad boyz</div>
+                    <div class="p-3 w-full">lex</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">4:20</div>
+                </div>
+                <!-- 4 -->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Laaree Chootee</div>
+                    <div class="p-3 w-full">Call</div>
+                    <div class="p-3 w-full">Call Dhoom</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">3:20</div>
+                </div>
+                <!-- 5 -->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Kashmir Janeman</div>
+                    <div class="p-3 w-full">Fiddlekraft</div>
+                    <div class="p-3 w-full">Live</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">6:20</div>
+                </div>
+                <!-- 6 -->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Us</div>
+                    <div class="p-3 w-full">Kool klux</div>
+                    <div class="p-3 w-full">Hedge</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">4:20</div>
+                </div>
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Lose Yourself</div>
+                    <div class="p-3 w-full">Eminem</div>
+                    <div class="p-3 w-full">Spotify</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">5:22</div>
+                </div>
+                <!-- 7 -->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Hello!</div>
+                    <div class="p-3 w-full">Ssup</div>
+                    <div class="p-3 w-full">Miles stonned</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">3:45</div>
+                </div>
+                <!-- 8 -->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Hover</div>
+                    <div class="p-3 w-full">Mad boyz</div>
+                    <div class="p-3 w-full">lex</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">4:20</div>
+                </div>
+                <!-- 9 -->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Laaree Chootee</div>
+                    <div class="p-3 w-full">Call</div>
+                    <div class="p-3 w-full">Call Dhoom</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">3:20</div>
+                </div>
+                <!--10 -->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Kashmir Janeman</div>
+                    <div class="p-3 w-full">Fiddlekraft</div>
+                    <div class="p-3 w-full">Live</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">6:20</div>
+                </div>
+                <!-- 11-->
+                <div class="flex border-b border-gray-800 hover:bg-gray-800">
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-play-circle"></i></div>
+                    <div class="p-3 w-8 flex-shrink-0"><i class="far fa-heart"></i></div>
+                    <div class="p-3 w-full">Us</div>
+                    <div class="p-3 w-full">Kool klux</div>
+                    <div class="p-3 w-full">Hedge</div>
+                    <div class="p-3 w-12 flex-shrink-0 text-right">4:20</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
